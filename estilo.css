@@ -1,0 +1,169 @@
+/* reset da pagina */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Onest", sans-serif;
+	font-weight: 400;
+}
+
+nav {
+	padding: 20px 60px;
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(94, 153, 53);
+}
+
+h1 {
+	font-weight: 800;
+	font-size: 35px;
+	color: white;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+li {
+	margin-left: 20px;
+}
+
+a {
+	color: white;
+	font-size: 25px;
+}
+
+a:hover {
+	color: #000;
+}
+
+section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ebebeb;
+}
+
+.container {
+	width: 90vw;
+	padding: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	color: rgb(62, 99, 36);
+	margin-bottom: 40px;
+	font-size: 45px;
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+span {
+	font-weight: 700;
+}
+
+img {
+	height: 600px;
+}
+.divider {
+	height: 3px;
+	width: 100%;
+	background: linear-gradient(90deg, rgba(78, 238, 8, 1) 27%, rgba(51, 121, 9, 1) 75%);
+}
+
+.section-title {
+	text-align: center;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.skills-info {
+	max-width: 40vw;
+}
+
+.project-cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.card {
+	max-width: 48%;
+	padding: 50px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(62, 99, 36);
+	margin-bottom: 50px;
+}
+
+.card-text {
+	margin-top: 30px;
+	color: rgb(237, 238, 238);
+}
+
+.img-card {
+	width: 100%;
+	height: auto;
+}
+
+.contact-content {
+	display: flex;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	padding: 0 40px;
+}
+
+textarea {
+	resize: none;
+	height: 127px;
+	width: 538px;
+	font-size: 17px;
+	padding: 10px 20px;
+}
+
+input {
+	margin-bottom: 20px;
+	height: 35px;
+	font-size: 17px;
+	padding: 0 20px;
+}
+
+h3 {
+	text-align: center;
+	color: rgb(62, 99, 36);
+	font-size: 30px;
+}
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.img-link {
+	width: 150px;
+	height: 150px;
+	cursor: pointer;
+}
+
+footer {
+	height: 70px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(94, 153, 53);
+}
